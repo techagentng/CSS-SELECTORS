@@ -1,0 +1,33 @@
+html, body, div, section{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;	
+}
+/* p:first-child{
+	color: blue;
+} */
+
+/* div + p{
+	color: red;
+} */
+/* div p:first-child{
+	color: red;
+} */
+
+/* div p:nth-child(2), div p:nth-child(3){
+  color: red;
+} */
+
+div section{
+	color: red;
+}
